@@ -74,6 +74,44 @@ function toggleAccordion(index) {
     }
 }
 
+//   contact
+
+const form = document.getElementById('contact-form');
+const successPopup = document.getElementById('success-popup');
+
+form.addEventListener('submit', async function (e) {
+    e.preventDefault(); // Prevent form reload
+
+    const formData = new FormData(form);
+
+    try {
+        const response = await fetch('https://api.web3forms.com/submit', {
+            method: 'POST',
+            body: formData
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            // Show success popup
+            successPopup.classList.remove('hidden');
+
+            // Auto-hide after 3 seconds
+            setTimeout(() => {
+                successPopup.classList.add('hidden');
+            }, 3000);
+
+            // Reset form
+            form.reset();
+        } else {
+            alert('Something went wrong. Please try again.');
+        }
+    } catch (error) {
+        console.error(error);
+        alert('Error while submitting the form. Please check your connection.');
+    }
+});
+
 // swiper
 
 var swiper = new Swiper(".mySwiper", {
