@@ -71,3 +71,9 @@ input:user-invalid {
         url(https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg?_gl=1*xdbsww*_ga*MTU1MTYyMjc1NC4xNzUyMDQ1MzM5*_ga_8JE65Q40S6*czE3NTQ1MjgxNTYkbzI1JGcxJHQxNzU0NTI5NzcyJGo1OSRsMCRoMA..) no-repeat center center;
     background-size: cover;
 }
+
+.resourseBanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.664)),
+        url(https://images.pexels.com/photos/392018/pexels-photo-392018.jpeg?_gl=1*1b427ap*_ga*MTU1MTYyMjc1NC4xNzUyMDQ1MzM5*_ga_8JE65Q40S6*czE3NTQ1NTg4NDQkbzI2JGcxJHQxNzU0NTU4OTI3JGo1OSRsMCRoMA..) no-repeat center center;
+    background-size: cover;
+}

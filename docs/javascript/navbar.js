@@ -17,7 +17,7 @@ dynamic_navbar.innerHTML = `
                                 <li><a href="/about.html"
                                         class="hover:opacity-60 tracking-wide  transition-all duration-500">About Us</a>
                                 </li>
-                                <li><a href="#"
+                                <li><a href="/resources.html"
                                         class="hover:opacity-60 tracking-wide  transition-all duration-500">Resources</a>
                                 </li>
                                 <li><a href="/support.html"
@@ -55,7 +55,7 @@ dynamic_navbar.innerHTML = `
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">About
                             Us</a>
                     </li>
-                    <li><a href="#"
+                    <li><a href="/resources.html"
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">Resources</a>
                     </li>
                     <li><a href="/support.html"
@@ -64,7 +64,7 @@ dynamic_navbar.innerHTML = `
                 </ul>
                 <div class="mt-5 flex flex-col gap-3">
                     <a href="/signup.html"
-                        class="w-full tracking-wider inline-flex items-center justify-center py-3 px-7 text-base font-medium text-center text-black rounded-sm border-2 border-zinc-800  hover:opacity-70 transition-all duration-500">
+                        class="w-full tracking-wider inline-flex items-center justify-center py-3 px-7 text-base font-medium text-center text-black rounded-sm border-2 border-zinc-800  hover:opacity-70 transition-all text-nowrap duration-500">
                         Sign Up
                     </a>
                     <a href="/login.html"

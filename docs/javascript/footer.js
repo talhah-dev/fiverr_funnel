@@ -16,7 +16,7 @@ footer.innerHTML = `
             <ul class="mt-5 space-y-3 text-zinc-600 font-medium">
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About us</a></li>
-                <li><a href="#">Resources</a></li>
+                <li><a href="/resources.html">Resources</a></li>
                 <li><a href="/support.html">Support</a></li>
             </ul>
         </div>
