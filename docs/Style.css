@@ -45,7 +45,7 @@ input:user-invalid {
 
 .banner {
     background: linear-gradient(rgba(0, 0, 0, 0.95), rgba(0, 0, 0, 0.429)),
-        url(https://images.pexels.com/photos/943096/pexels-photo-943096.jpeg?_gl=1*uqqvc0*_ga*MTU1MTYyMjc1NC4xNzUyMDQ1MzM5*_ga_8JE65Q40S6*czE3NTQ0NDI1MjMkbzIyJGcxJHQxNzU0NDQyNjAwJGo0MyRsMCRoMA..) no-repeat center center;
+        url(/docs/assets/images/Leonardo_Phoenix_10_Design_a_highresolution_darkthemed_website_1.jpg) no-repeat center center;
     background-size: cover;
 }
 .banner2 {
@@ -57,5 +57,17 @@ input:user-invalid {
 .authBg {
     background: linear-gradient(rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.664)),
         url(https://plus.unsplash.com/premium_photo-1683880731792-39c07ceea617?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D) no-repeat center center;
+    background-size: cover;
+}
+
+.contactBanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.664)),
+        url(https://images.pexels.com/photos/8867431/pexels-photo-8867431.jpeg?_gl=1*1dfc3o0*_ga*MTU1MTYyMjc1NC4xNzUyMDQ1MzM5*_ga_8JE65Q40S6*czE3NTQ1MjgxNTYkbzI1JGcxJHQxNzU0NTI4MjMwJGo1OSRsMCRoMA..) no-repeat center center;
+    background-size: cover;
+}
+
+.aboutBanner {
+    background: linear-gradient(rgba(0, 0, 0, 0.655), rgba(0, 0, 0, 0.664)),
+        url(https://images.pexels.com/photos/129208/pexels-photo-129208.jpeg?_gl=1*xdbsww*_ga*MTU1MTYyMjc1NC4xNzUyMDQ1MzM5*_ga_8JE65Q40S6*czE3NTQ1MjgxNTYkbzI1JGcxJHQxNzU0NTI5NzcyJGo1OSRsMCRoMA..) no-repeat center center;
     background-size: cover;
 }

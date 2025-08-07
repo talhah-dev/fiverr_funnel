@@ -1,1 +1,141 @@
-\
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funnel</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <!-- seo -->
+
+</head>
+
+<body class="overflow-x-hidden">
+
+    <div id="global-loader"
+        class="hidden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#fbb03b]"></div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+
+
+    <section class="relative min-h-90 overflow-hidden">
+        <div id="navbar" class="bg-zinc-900 pb-4"></div>
+        <!-- Content -->
+        <div data-aos="fade-up" data-aos-delay="100" class="mx-auto max-w-5xl px-4 md:mt-20 mt-10 lg:px-8">
+            <h2 class="text-zinc-900 font-semibold text-4xl md:text-[60px] mb-5">
+                Privacy Policy
+            </h2>
+
+            <p class="text-zinc-600 pt-2">
+                Last Updated: August 6, 2025
+                <br /><br />
+                This Privacy Policy explains how we collect, use, and protect your personal information when you visit
+                or use our website and services. By using this site, you agree to the practices described in this
+                policy.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-zinc-800 mt-8">1. Information We Collect</h3>
+            <p class="text-zinc-600 mt-2">
+                We may collect the following types of information:
+            </p>
+            <ul class="mt-3 space-y-2 text-zinc-600 list-disc pl-5">
+                <li><strong>Personal Information:</strong> Name, email address, phone number, etc., submitted through
+                    contact forms or signups.</li>
+                <li><strong>Usage Data:</strong> Pages visited, time spent, browser type, and referring URLs.</li>
+                <li><strong>Marketing Data:</strong> Information related to newsletter subscriptions, surveys, or
+                    offers.</li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-zinc-800 mt-8">2. How We Use Your Information</h3>
+            <p class="text-zinc-600 mt-2">
+                Your information is used to:
+            </p>
+            <ul class="mt-3 space-y-2 text-zinc-600 list-disc pl-5">
+                <li>Provide and manage our services and dashboards</li>
+                <li>Send relevant communications such as updates, support info, or marketing emails</li>
+                <li>Improve our website experience and analyze usage</li>
+                <li>Respond to inquiries or requests</li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-zinc-800 mt-8">3. Sharing of Information</h3>
+            <p class="text-zinc-600 mt-2">
+                We do not sell, rent, or trade your personal information. However, we may share your information with:
+            </p>
+            <ul class="mt-3 space-y-2 text-zinc-600 list-disc pl-5">
+                <li>Trusted third-party service providers (e.g., email platforms, analytics tools)</li>
+                <li>Government or law enforcement authorities when required by law</li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-zinc-800 mt-8">4. Cookies & Tracking</h3>
+            <p class="text-zinc-600 mt-2">
+                We use cookies and similar tracking tools to enhance your browsing experience, remember preferences, and
+                analyze website performance.
+                You can control or disable cookies through your browser settings.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-zinc-800 mt-8">5. Data Security</h3>
+            <p class="text-zinc-600 mt-2">
+                We implement industry-standard security measures to protect your data from unauthorized access, loss,
+                misuse, or alteration. However, no method of transmission over the internet is 100% secure.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-zinc-800 mt-8">6. Your Rights</h3>
+            <p class="text-zinc-600 mt-2">
+                Depending on your location, you may have the right to:
+            </p>
+            <ul class="mt-3 space-y-2 text-zinc-600 list-disc pl-5">
+                <li>Access the data we store about you</li>
+                <li>Request correction or deletion of your personal information</li>
+                <li>Withdraw consent for marketing communications</li>
+            </ul>
+
+            <h3 class="text-2xl font-semibold text-zinc-800 mt-8">7. Third-Party Links</h3>
+            <p class="text-zinc-600 mt-2">
+                Our website may contain links to external sites. We are not responsible for their content or privacy
+                practices. We encourage you to review their policies before sharing any information.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-zinc-800 mt-8">8. Changes to This Policy</h3>
+            <p class="text-zinc-600 mt-2">
+                We may update this Privacy Policy from time to time. Any changes will be reflected on this page with a
+                revised "Last Updated" date.
+            </p>
+
+            <h3 class="text-2xl font-semibold text-zinc-800 mt-8">9. Contact Us</h3>
+            <p class="text-zinc-600 mt-2">
+                If you have any questions or concerns about this Privacy Policy, feel free to reach out:
+            </p>
+            <ul class="mt-3 space-y-2 text-zinc-600 list-disc pl-5">
+                <li><strong>Email:</strong> support@yourdomain.com</li>
+                <li><strong>Phone:</strong> +1 (123) 456-7890</li>
+                <li><strong>Address:</strong> 123 Data Street, Dashboard City, Analytics State, 00000</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <div class="md:mt-16 mt-10" id="footer"></div>
+
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+
+</body>
+
+</html>

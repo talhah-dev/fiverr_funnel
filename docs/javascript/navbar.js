@@ -14,15 +14,14 @@ dynamic_navbar.innerHTML = `
                                 <li><a href="index.html"
                                         class="hover:opacity-60 tracking-wide  transition-all duration-500">Home</a>
                                 </li>
-                                <li><a href="#about"
+                                <li><a href="/about.html"
                                         class="hover:opacity-60 tracking-wide  transition-all duration-500">About Us</a>
                                 </li>
-                                <li><a href="#about"
+                                <li><a href="#"
                                         class="hover:opacity-60 tracking-wide  transition-all duration-500">Resources</a>
                                 </li>
-                                <li><a href="#contact"
-                                        class="hover:opacity-60 tracking-wide transition-all duration-500">Contact
-                                        Us</a>
+                                <li><a href="/support.html"
+                                        class="hover:opacity-60 tracking-wide transition-all duration-500">Support</a>
                                 </li>
                             </ul>
                         </div>
@@ -56,12 +55,11 @@ dynamic_navbar.innerHTML = `
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">About
                             Us</a>
                     </li>
-                    <li><a href="/resources.html"
+                    <li><a href="#"
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">Resources</a>
                     </li>
-                    <li><a href="/contact.html"
-                            class="hover:opacity-60 mobileMenuCloseBtn tracking-wide transition-all duration-500 text-nowrap">Contact
-                            Us</a>
+                    <li><a href="/support.html"
+                            class="hover:opacity-60 mobileMenuCloseBtn tracking-wide transition-all duration-500 text-nowrap">Support</a>
                     </li>
                 </ul>
                 <div class="mt-5 flex flex-col gap-3">

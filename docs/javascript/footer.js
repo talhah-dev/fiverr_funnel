@@ -17,13 +17,12 @@ footer.innerHTML = `
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About us</a></li>
                 <li><a href="#">Resources</a></li>
-                <li><a href="/contact.html">Contact Us</a></li>
+                <li><a href="/support.html">Support</a></li>
             </ul>
         </div>
         <div data-aos="fade-up" data-aos-delay="200" class="second">
             <h2 class="text-2xl text-zinc-800 font-semibold"> Others</h2>
             <ul class="mt-5 space-y-3 text-zinc-600 font-medium">
-                <li><a href="/support.html">Support</a></li>
                 <li><a href="/privacy.html">Privacy Policy</a></li>
                 <li><a href="/signup.html">Sign Up</a></li>
                 <li><a href="/login.html">Login</a></li>
@@ -40,7 +39,7 @@ footer.innerHTML = `
     </footer>
 
     <p class="text-center p-4 text-zinc-600 mt-5">
-        Copyright © <span id="copyright"></span> Website Name. All rights reserved.
+        Copyright © <span id="copyright"></span> Funnel. All rights reserved.
     </p>
 `
 
