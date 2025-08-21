@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funnel</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- seo -->
+    <meta name="description"
+        content="We turn your data into beautiful dashboards that help you make smarter decisions." />
+    <meta name="keywords" content="Data dashboards, Looker Studio, Google Sheets, CRM, Analytics, Insights" />
+</head>
+
+<body class="overflow-x-hidden">
+
+    <div id="global-loader"
+        class="hidden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#fbb03b]"></div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+
+
+    <section class="resourseBanner relative min-h-90 overflow-hidden">
+        <div id="navbar"></div>
+        <!-- Content -->
+        <div
+            class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10 text-center min-h-90 flex items-center justify-center flex-col">
+            <h2 data-aos="fade-up" data-aos-delay="100"
+                class="max-w-5xl mx-auto text-white font-semibold text-4xl md:text-[60px] mb-5">
+                Pricing Plan
+            </h2>
+            <p data-aos="fade-up" data-aos-delay="200"
+                class="max-w-2xl mx-auto text-white text-base font-normal leading-7 tracking-wider">
+                Explore our flexible pricing plans designed to fit your needs, whether you're an individual or a
+                business.
+            </p>
+        </div>
+    </section>
+
+
+    <!-- Section 1: Analytics That Drives Growth -->
+    <section
+        class="md:max-w-7xl flex items-center justify-center md:flex-row flex-col md:gap-20 gap-6 lg:px-12 p-4 w-full mx-auto lg:mt-24 mt-12">
+        <div data-aos="zoom-in" class="md:w-[50%] w-full">
+            <img src="https://images.unsplash.com/photo-1519241047957-be31d7379a5d?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                class="w-full rounded-xl" alt="Analytics Dashboard">
+        </div>
+        <div class="md:w-[50%] w-full">
+            <p data-aos="fade-up" class="mb-3 px-2 bg-blue-100 text-blue-800 rounded-full py-1 inline-block text-xs">
+                Analytics</p>
+            <h2 data-aos="fade-up"
+                class="lg:text-4xl capitalize md:leading-[3rem] text-3xl font-semibold text-zinc-800">
+                Analytics That Drives Business Growth
+            </h2>
+            <p data-aos="fade-up" class="mt-5 text-zinc-600 md:text-lg">
+                At Funnel Studio, we deliver more than just dashboards—we provide clear, actionable insights that fuel
+                your business success. Our human-led analytics combine marketing, sales, and operational data into
+                intuitive reports, helping you make confident decisions. With our expertise, your data becomes a
+                powerful tool for growth, backed by a 30-day satisfaction guarantee.
+            </p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section class="md:mt-32 mt-10 relative">
+        <div class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+            <div class="mb-12">
+                <h2 class="font-manrope md:text-5xl text-3xl text-center font-semibold text-zinc-800 mb-4">Flexible
+                    Pricing Plans for Your Business</h2>
+                <p class="text-zinc-600 text-xl text-center leading-6">
+                    BACKED BY OUR 30-DAY MONEY-BACK GUARANTEE!
+                </p>
+            </div>
+
+            <!-- Grid -->
+            <div class="space-y-8 lg:grid lg:grid-cols-3 sm:gap-6 xl:gap-8 lg:space-y-0 lg:items-start">
+                <!-- Starter Plan -->
+                <div
+                    class="group relative flex flex-col mx-auto w-full max-w-sm bg-zinc-50 rounded-2xl  transition-all duration-300 p-4 xl:p-8">
+                    <div class="border-b border-solid border-zinc-600 pb-9 mb-9">
+                        <div
+                            class="w-16 h-16 rounded-full bg-[#fbb03b]/10 mx-auto flex justify-center items-center transition-all duration-300 group-hover:bg-[#fbb03b]">
+                            <i class="fa-solid group-hover:text-white fa-chart-line text-3xl text-[#fbb03b]"></i>
+                        </div>
+                        <h3 class="font-manrope text-2xl font-bold my-7 text-center text-[#fbb03b]">Starter Plan</h3>
+                        <div class="flex items-center justify-center">
+                            <span class="text-4xl font-medium text-zinc-800">$1,000</span>
+                            <span class="text-xl text-zinc-600 ml-3">/ month</span>
+                        </div>
+                    </div>
+                    <ul class="mb-12 space-y-4 text-left text-base text-zinc-600">
+                        <li>Single Dashboard Setup</li>
+                        <li>Basic Data Integration (up to 2 sources)</li>
+                        <li>Real-Time Data Updates</li>
+                        <li>Standard Support (Email & Chat)</li>
+                        <li>Monthly Performance Reports</li>
+                        <li>Secure Data Handling</li>
+                        <li>Basic Customization</li>
+                        <li class="lg:block hidden">&nbsp;</li>
+                        <li class="lg:block hidden">&nbsp;</li>
+                        <li class="lg:block hidden">&nbsp;</li>
+                    </ul>
+                    <a href="/contact.html"
+                        class="py-2.5 px-5 w-full shadow-sm rounded-full transition-all duration-500 text-base  font-semibold text-center w-fit mx-auto bg-[#fbb03b] text-white">
+                        Get Started
+                    </a>
+                </div>
+
+                <!-- Standard Plan -->
+                <div
+                    class="group relative flex flex-col mx-auto w-full max-w-sm bg-zinc-50 rounded-2xl  transition-all duration-300 p-4 xl:p-8">
+                    <div class="border-b border-solid border-zinc-600 pb-9 mb-9">
+                        <div
+                            class="w-16 h-16 rounded-full bg-[#fbb03b]/10 mx-auto flex justify-center items-center transition-all duration-300 group-hover:bg-[#fbb03b]">
+                            <i class="fa-solid group-hover:text-white fa-chart-pie text-3xl text-[#fbb03b]"></i>
+                        </div>
+                        <h3 class="font-manrope text-2xl font-bold my-7 text-center text-[#fbb03b]">Standard Plan</h3>
+                        <div class="flex items-center justify-center">
+                            <span class="text-4xl font-medium text-zinc-800">$2,000</span>
+                            <span class="text-xl text-zinc-600 ml-3">/ month</span>
+                        </div>
+                    </div>
+                    <ul class="mb-12 space-y-4 text-left text-base text-zinc-600">
+                        <li>Up to 3 Dashboards</li>
+                        <li>Data Integration (up to 5 sources)</li>
+                        <li>Real-Time Data Updates</li>
+                        <li>Priority Support (Email, Chat & Phone)</li>
+                        <li>Bi-Weekly Performance Reports</li>
+                        <li>Advanced Customization</li>
+                        <li>CRM & Marketing Tool Integration</li>
+                        <li>Secure Data Handling</li>
+                        <li class="lg:block hidden">&nbsp;</li>
+                        <li class="lg:block hidden">&nbsp;</li>
+                    </ul>
+                    <a href="/contact.html"
+                        class="py-2.5 px-5 w-full shadow-sm rounded-full transition-all duration-500 text-base  font-semibold text-center w-fit mx-auto bg-[#fbb03b] text-white">
+                        Get Started
+                    </a>
+                </div>
+
+                <!-- Pro Plan -->
+                <div
+                    class="group relative flex flex-col mx-auto w-full max-w-sm bg-zinc-50 rounded-2xl  transition-all duration-300 p-4 xl:p-8">
+                    <div class="border-b border-solid border-zinc-600 pb-9 mb-9">
+                        <div
+                            class="w-16 h-16 rounded-full bg-[#fbb03b]/10 mx-auto flex justify-center items-center transition-all duration-300 group-hover:bg-[#fbb03b]">
+                            <i class="fa-solid group-hover:text-white fa-chart-bar text-3xl text-[#fbb03b]"></i>
+                        </div>
+                        <h3 class="font-manrope text-2xl font-bold my-7 text-center text-[#fbb03b]">Pro Plan</h3>
+                        <div class="flex items-center justify-center">
+                            <span class="text-4xl font-medium text-zinc-800">$3,000</span>
+                            <span class="text-xl text-zinc-600 ml-3">/ month</span>
+                        </div>
+                    </div>
+                    <ul class="mb-12 space-y-4 text-left text-base text-zinc-600">
+                        <li>Unlimited Dashboards</li>
+                        <li>Unlimited Data Source Integration</li>
+                        <li>Real-Time Data Updates</li>
+                        <li>Dedicated Support (24/7 Access)</li>
+                        <li>Weekly Performance Reports</li>
+                        <li>Fully Customized Dashboards</li>
+                        <li>Advanced CRM & Marketing Integration</li>
+                        <li>Secure Data Handling</li>
+                        <li>Proactive Optimization</li>
+                        <li>Team Training Sessions</li>
+                    </ul>
+                    <a href="/contact.html"
+                        class="py-2.5 px-5 w-full shadow-sm rounded-full transition-all duration-500 text-base  font-semibold text-center w-fit mx-auto bg-[#fbb03b] text-white">
+                        Get Started
+                    </a>
+                </div>
+            </div>
+            <!-- Grid End -->
+        </div>
+    </section>
+
+    <section class="md:mt-20 mt-10 max-w-7xl w-full mx-auto p-5">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-5">
+            <!-- Feature 1 -->
+            <div data-aos="fade-up" class="relative w-full rounded-2xl p-4 transition-all duration-500 xl:p-5 myShadow">
+                <div class="mb-3">
+                    <i class="fa-solid fa-chart-line text-[#fbb03b] text-2xl"></i>
+                </div>
+                <h4 class="text-base font-semibold text-zinc-800 mb-2 capitalize transition-all duration-500">
+                    Real-Time Data Updates
+                </h4>
+                <p class="text-sm font-normal text-zinc-600 transition-all duration-500 leading-5">
+                    Stay ahead with live updates on your dashboards, ensuring you always have the latest insights for
+                    quick, informed decisions.
+                </p>
+            </div>
+
+            <!-- Feature 2 -->
+            <div data-aos="fade-up" data-aos-delay="100"
+                class="relative w-full rounded-2xl p-4 transition-all duration-500 xl:p-5 myShadow">
+                <div class="mb-3">
+                    <i class="fa-solid fa-link text-[#fbb03b] text-2xl"></i>
+                </div>
+                <h4 class="text-base font-semibold text-zinc-800 mb-2 capitalize transition-all duration-500">
+                    Seamless Data Integration
+                </h4>
+                <p class="text-sm font-normal text-zinc-600 transition-all duration-500 leading-5">
+                    Connect multiple data sources like CRMs, ad platforms, and spreadsheets into a single, unified
+                    dashboard for a complete view.
+                </p>
+            </div>
+
+            <!-- Feature 3 -->
+            <div data-aos="fade-up" data-aos-delay="200"
+                class="relative w-full rounded-2xl p-4 transition-all duration-500 xl:p-5 myShadow">
+                <div class="mb-3">
+                    <i class="fa-solid fa-lightbulb text-[#fbb03b] text-2xl"></i>
+                </div>
+                <h4 class="text-base font-semibold text-zinc-800 mb-2 capitalize transition-all duration-500">
+                    Expert Analysis
+                </h4>
+                <p class="text-sm font-normal text-zinc-600 transition-all duration-500 leading-5">
+                    Our team provides actionable insights and recommendations to optimize your data strategy and drive
+                    measurable results.
+                </p>
+            </div>
+
+            <!-- Feature 4 -->
+            <div data-aos="fade-up" class="relative w-full rounded-2xl p-4 transition-all duration-500 xl:p-5 myShadow">
+                <div class="mb-3">
+                    <i class="fa-solid fa-sliders text-[#fbb03b] text-2xl"></i>
+                </div>
+                <h4 class="text-base font-semibold text-zinc-800 mb-2 capitalize transition-all duration-500">
+                    Customizable Dashboards
+                </h4>
+                <p class="text-sm font-normal text-zinc-600 transition-all duration-500 leading-5">
+                    Tailor your dashboards to your unique business needs, ensuring the metrics and visuals align with
+                    your goals.
+                </p>
+            </div>
+
+            <!-- Feature 5 -->
+            <div data-aos="fade-up" data-aos-delay="100"
+                class="relative w-full rounded-2xl p-4 transition-all duration-500 xl:p-5 myShadow">
+                <div class="mb-3">
+                    <i class="fa-solid fa-headset text-[#fbb03b] text-2xl"></i>
+                </div>
+                <h4 class="text-base font-semibold text-zinc-800 mb-2 capitalize transition-all duration-500">
+                    Dedicated Support
+                </h4>
+                <p class="text-sm font-normal text-zinc-600 transition-all duration-500 leading-5">
+                    Our in-house team offers ongoing support to keep your dashboards running smoothly and your data
+                    strategy on track.
+                </p>
+            </div>
+
+            <!-- Feature 6 -->
+            <div data-aos="fade-up" data-aos-delay="200"
+                class="relative w-full rounded-2xl p-4 transition-all duration-500 xl:p-5 myShadow">
+                <div class="mb-3">
+                    <i class="fa-solid fa-shield-alt text-[#fbb03b] text-2xl"></i>
+                </div>
+                <h4 class="text-base font-semibold text-zinc-800 mb-2 capitalize transition-all duration-500">
+                    Secure Data Handling
+                </h4>
+                <p class="text-sm font-normal text-zinc-600 transition-all duration-500 leading-5">
+                    Your data is protected with industry-standard encryption and secure platforms, ensuring privacy and
+                    reliability.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <div class="bg-zinc-100 md:py-20 py-10 md:mt-16 mt-10">
+        <section class="w-full p-5 max-w-4xl mx-auto ">
+            <h2 data-aos="fade-up" class="text-zinc-800 font-semibold md:text-5xl text-center text-3xl">Frequently Asked
+                Questions</h2>
+
+            <p data-aos="fade-up" class="text-zinc-600 mt-2 md:mt-5 text-center md:text-lg">
+                Got questions about Funnel Studio? Here's everything you need to know before getting started.
+            </p>
+
+            <div class="md:mt-14 mt-10">
+                <!-- FAQ 1 -->
+                <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6" data-aos="fade-up">
+                    <button onclick="toggleAccordion(1)"
+                        class="w-full cursor-pointer flex justify-between items-center">
+                        <p class="text-lg text-start font-medium">What is Funnel Studio?</p>
+                        <i id="icon-1"
+                            class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div id="content-1" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <p class="pt-3 text-zinc-600">
+                            Funnel Studio is a digital analytics service that creates custom dashboards using Looker
+                            Studio, helping small businesses visualize and understand their performance data across
+                            marketing, sales, and operations.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5" data-aos="fade-up">
+                    <button onclick="toggleAccordion(2)"
+                        class="w-full cursor-pointer flex justify-between items-center">
+                        <p class="text-lg text-start font-medium">What tools do you use to build dashboards?</p>
+                        <i id="icon-2"
+                            class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div id="content-2" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <p class="pt-3 text-zinc-600">
+                            We primarily use Looker Studio (formerly Google Data Studio), along with Google Sheets,
+                            Fillout.com forms, and custom JavaScript solutions to connect and present your data
+                            effectively.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5" data-aos="fade-up">
+                    <button onclick="toggleAccordion(3)"
+                        class="w-full cursor-pointer flex justify-between items-center">
+                        <p class="text-lg text-start font-medium">Can you work with my existing spreadsheets or CRM?</p>
+                        <i id="icon-3"
+                            class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div id="content-3" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <p class="pt-3 text-zinc-600">
+                            Absolutely. We can pull in data from Google Sheets, Excel files, and many CRM or ad
+                            platforms that support API or export access.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5" data-aos="fade-up">
+                    <button onclick="toggleAccordion(4)"
+                        class="w-full cursor-pointer flex justify-between items-center">
+                        <p class="text-lg text-start font-medium">Do you offer marketing or email funnel setup?</p>
+                        <i id="icon-4"
+                            class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div id="content-4" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <p class="pt-3 text-zinc-600">
+                            Yes, as an add-on service we can help you build simple email funnels, lead capture surveys,
+                            and other basic funnel flows to help you nurture and convert leads.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5" data-aos="fade-up">
+                    <button onclick="toggleAccordion(5)"
+                        class="w-full cursor-pointer flex justify-between items-center">
+                        <p class="text-lg text-start font-medium">How long does it take to build a dashboard?</p>
+                        <i id="icon-5"
+                            class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div id="content-5" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <p class="pt-3 text-zinc-600">
+                            Depending on the complexity, most dashboards are completed within 3–7 business days. We'll
+                            provide a clear timeline after reviewing your data needs.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="bg-white border border-solid border-gray-200 rounded-2xl p-6 mt-5" data-aos="fade-up">
+                    <button onclick="toggleAccordion(6)"
+                        class="w-full cursor-pointer flex justify-between items-center">
+                        <p class="text-lg text-start font-medium">Is ongoing support available after delivery?</p>
+                        <i id="icon-6"
+                            class="fa-solid fa-angle-down text-gray-600 transition-transform duration-300"></i>
+                    </button>
+                    <div id="content-6" class="max-h-0 overflow-hidden transition-all duration-300 ease-in-out">
+                        <p class="pt-3 text-zinc-600">
+                            Yes! We offer optional support packages if you want ongoing help, dashboard updates, or
+                            insights on new data sources.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </div>
+
+
+    <div class="md:mt-20 mt-12" id="footer"></div>
+
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+
+</body>
+
+</html>

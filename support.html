@@ -66,19 +66,19 @@
                 <div class="grid md:grid-cols-2 grid-cols-1 gap-2 md:mt-5 mt-8">
                     <div class="md:col-span-2" data-aos="fade-up">
                         <a class="w-full flex md:items-center transition-all duration-500 hover:opacity-70 gap-3 md:p-4 p-3 bg-zinc-100 rounded-2xl "
-                            href="mailto:tunnel@gmail.com">
+                            href="mailto:sales@funnel.studio">
                             <div class="">
                                 <h3 class="Montserrat font-semibold text-lg text-[#101828]">Email</h3>
-                                <p class="text-zinc-700 font-semibold">tunnel@gmail.com</p>
+                                <p class="text-zinc-700 font-semibold">sales@funnel.studio </p>
                             </div>
                         </a>
                     </div>
                     <div class="md:col-span-2" data-aos="fade-up" data-aos-delay="100">
                         <a class="w-full flex md:items-center transition-all duration-500 hover:opacity-70 gap-3 md:p-4 p-3 bg-zinc-100 rounded-2xl "
-                            href="tel+:0000000">
+                            href="tel+:859242-9091">
                             <div class="">
                                 <h3 class="Montserrat font-semibold text-lg text-[#101828]">Telephone</h3>
-                                <p class="text-zinc-700 font-semibold">+0000000000</p>
+                                <p class="text-zinc-700 font-semibold">+(859) 242-9091</p>
                             </div>
                         </a>
                     </div>
@@ -87,7 +87,7 @@
                             class="w-full flex md:items-center transition-all duration-500 gap-3 md:p-4 p-3 bg-zinc-100 rounded-2xl ">
                             <div class="">
                                 <h3 class="Montserrat font-semibold text-lg text-[#101828]">Address</h3>
-                                <p class="text-zinc-700 font-semibold">Loaction</p>
+                                <p class="text-zinc-700 font-semibold">400 Crossroads Blvd Cold Spring, KY, 41076.</p>
                             </div>
                         </a>
                     </div>
@@ -95,26 +95,39 @@
 
             </div>
 
-            <form data-aos="fade-up" class="lg:max-w-[55%] grid md:grid-cols-2 p-2 grid-cols-1 w-full gap-10"
+            <form data-aos="fade-up" class="lg:max-w-[55%] grid md:grid-cols-2 p-2 grid-cols-1 w-full gap-5"
                 id="contact-form">
                 <input type="hidden" name="access_key" value="d5e71f42-cdef-4674-bb49-8f78b9ec37e2">
                 <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-
                 <div class="flex items-center md:col-span-2 gap-4 border-b border-[#D0D5DD]">
-                    <input type="text" placeholder="Name*" required
-                        class="w-full  border-0 placeholder:text-[#475467] py-4" id="name">
+                    <input type="text" name="name" placeholder="Name*" required
+                        class="w-full border-0 placeholder:text-[#475467] py-4" id="name">
                 </div>
                 <div class="flex items-center gap-4 border-b md:col-span-2 border-[#D0D5DD]">
-                    <input type="email" placeholder="Email*" required
-                        class="w-full  border-0 placeholder:text-[#475467] py-4" id="email">
+                    <input type="email" name="email" placeholder="Email*" required
+                        class="w-full border-0 placeholder:text-[#475467] py-4" id="email">
                 </div>
                 <div class="flex items-center gap-4 border-b md:col-span-2 border-[#D0D5DD]">
-                    <input type="text" placeholder="Message*" class="w-full border-0 placeholder:text-[#475467] py-4"
-                        id="message">
+                    <select name="service_interest" required
+                        class="w-full border-0 text-[#475467] py-4 bg-transparent focus:outline-none">
+                        <option value="" disabled selected>Which service are you interested in?*</option>
+                        <option value="custom_dashboards">Custom Dashboards</option>
+                        <option value="ad_performance_tracking">Ad Performance Tracking</option>
+                        <option value="sales_funnel_insights">Sales Funnel Insights</option>
+                        <option value="spreadsheet_integration">Spreadsheet Integration</option>
+                        <option value="email_survey_funnels">Email & Survey Funnels</option>
+                        <option value="ongoing_support">Ongoing Support</option>
+                    </select>
                 </div>
+                <div class="flex items-center gap-4 border-b md:col-span-2 border-[#D0D5DD]">
+                    <input type="text" name="message" placeholder="Message*"
+                        class="w-full border-0 placeholder:text-[#475467] py-4" id="message">
+                </div>
+                <p class="text-[#475467] text-sm font-normal md:col-span-2">Your data is fully encrypted and 100% secure
+                    with us—privacy is our top priority</p>
                 <div data-aos="fade-up" class="flex">
                     <button type="submit"
-                        class="w-full text-nowrap md:w-auto inline-flex items-center justify-center py-2 px-10 cursor-pointer font-medium text-center text-black rounded-lg border-2 border-zinc-800 hover:opacity-70 transition-all duration-500">
+                        class="w-full text-nowrap md:w-auto inline-flex items-center justify-center py-3.5 px-12 cursor-pointer text-base font-medium text-center text-white rounded-lg bg-[#fbb03b] Montserrat shadow-xs hover:opacity-70 transition-all duration-500">
                         Send Message
                     </button>
                 </div>
@@ -133,7 +146,7 @@
 
     <section class="max-w-7xl flex items-center justify-center mx-auto  md:mt-20 px-5">
         <iframe data-aos="fade-up"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d48931867.30218676!2d-18.994702637402852!3d41.53538045632655!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46ed8886cfadda85%3A0x72ef99e6b3fcf079!2sEurope!5e0!3m2!1sen!2s!4v1754528427497!5m2!1sen!2s"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3100.494490741416!2d-84.42059922528702!3d39.00403204040707!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8841a541c31e9329%3A0x7694357f4d1f35c8!2s400%20Crossroads%20Blvd%2C%20Cold%20Spring%2C%20KY%2041076%2C%20USA!5e0!3m2!1sen!2s!4v1755737224555!5m2!1sen!2s"
             class="w-full h-96 md:h-[30rem] rounded-2xl" style="border:0;" allowfullscreen="" loading="lazy"
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     </section>

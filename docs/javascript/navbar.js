@@ -20,6 +20,9 @@ dynamic_navbar.innerHTML = `
                                 <li><a href="/resources.html"
                                         class="hover:opacity-60 tracking-wide  transition-all duration-500">Resources</a>
                                 </li>
+                                <li><a href="/pricing.html"
+                                        class="hover:opacity-60 tracking-wide  transition-all duration-500">Pricing</a>
+                                </li>
                                 <li><a href="/support.html"
                                         class="hover:opacity-60 tracking-wide transition-all duration-500">Support</a>
                                 </li>
@@ -57,6 +60,9 @@ dynamic_navbar.innerHTML = `
                     </li>
                     <li><a href="/resources.html"
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">Resources</a>
+                    </li>
+                    <li><a href="/pricing.html"
+                            class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">Pricing</a>
                     </li>
                     <li><a href="/support.html"
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide transition-all duration-500 text-nowrap">Support</a>
