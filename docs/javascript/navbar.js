@@ -20,23 +20,19 @@ dynamic_navbar.innerHTML = `
                                 <li><a href="/resources.html"
                                         class="hover:opacity-60 tracking-wide  transition-all duration-500">Resources</a>
                                 </li>
+                                <li><a href="/operations.html"
+                                        class="hover:opacity-60 tracking-wide  transition-all duration-500">Operations</a>
+                                </li>
                                 <li><a href="/pricing.html"
                                         class="hover:opacity-60 tracking-wide  transition-all duration-500">Pricing</a>
-                                </li>
-                                <li><a href="/support.html"
-                                        class="hover:opacity-60 tracking-wide transition-all duration-500">Support</a>
                                 </li>
                             </ul>
                         </div>
                     </div>
                     <div data-aos="fade-left" class="lg:flex hidden  items-center gap-3">
-                        <a href="/signup.html"
-                            class="w-full md:w-auto tracking-wider py-2 px-4 text-center text-white rounded-sm border border-zinc-200 hover:opacity-70 transition-all duration-500">
-                            Sign Up
-                        </a>
-                        <a href="/login.html"
+                        <a href="/support.html"
                             class="w-full md:w-auto tracking-wider py-2 px-7 bg-zinc-100 text-center text-black rounded-sm border border-zinc-100 hover:opacity-70 transition-all duration-500">
-                            Login
+                            Contact Us
                         </a>
                     </div>
                     <i data-aos="fade-left" id="mobileMenuBtn"
@@ -60,6 +56,9 @@ dynamic_navbar.innerHTML = `
                     </li>
                     <li><a href="/resources.html"
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">Resources</a>
+                    </li>
+                    <li><a href="/operations.html"
+                            class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">Operation</a>
                     </li>
                     <li><a href="/pricing.html"
                             class="hover:opacity-60 mobileMenuCloseBtn tracking-wide  transition-all duration-500 text-nowrap">Pricing</a>

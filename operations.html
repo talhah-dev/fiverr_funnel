@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funnel</title>
+
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="/docs/assets/images/favicon.png" type="image/x-icon">
+
+    <!-- Styles & Scripts -->
+    <link rel="stylesheet" href="/docs/Style.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://unpkg.com/lenis@1.3.1/dist/lenis.css">
+    <link href="https://unpkg.com/aos@2.3.4/dist/aos.css" rel="stylesheet">
+
+    <!-- seo -->
+    <meta name="description"
+        content="We turn your data into beautiful dashboards that help you make smarter decisions." />
+    <meta name="keywords" content="Data dashboards, Looker Studio, Google Sheets, CRM, Analytics, Insights" />
+</head>
+
+<body class="overflow-x-hidden">
+
+    <div id="global-loader"
+        class="hidden transition-opacity duration-300 opacity-0 fixed inset-0 bg-zinc-100 flex justify-center items-center z-50">
+        <div class="animate-spin rounded-full h-12 w-12 border-t-2 border-b-2 border-[#fbb03b]"></div>
+    </div>
+
+    <div id="bottomToTopScroll"></div>
+
+
+    <section class="resourseBanner relative min-h-90 overflow-hidden">
+        <div id="navbar"></div>
+        <!-- Content -->
+        <div
+            class="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 relative z-10 text-center min-h-90 flex items-center justify-center flex-col">
+            <h2 data-aos="fade-up" data-aos-delay="100"
+                class="max-w-5xl mx-auto text-white font-semibold text-4xl md:text-[60px] mb-5">
+                Operations
+            </h2>
+            <p data-aos="fade-up" data-aos-delay="200"
+                class="max-w-2xl mx-auto text-white text-base font-normal leading-7 tracking-wider">
+                Gain clear insights into your business operations with tailored data visualization, tracking employee
+                costs, store performance, and profitability to drive smarter decisions.
+            </p>
+        </div>
+    </section>
+
+    <section class="md:mt-20 mt-10 max-w-7xl w-full mx-auto p-5">
+        <div data-aos="fade-up">
+            <h3 class="text-3xl font-semibold text-zinc-800 mb-4">Why Choose Our Operations Analytics?</h3>
+            <h4 class="text-2xl font-medium text-zinc-800 mb-4">Empower Your Business with Actionable Insights</h4>
+            <p class="text-zinc-600 leading-7 mb-6">
+                At Funnel Studio, our Operations Analytics service helps small and mid-sized businesses understand their
+                operational performance through intuitive data visualization. From employee costs to store-level
+                profitability, we transform raw data into clear dashboards and charts, enabling you to optimize
+                resources, reduce costs, and boost efficiency without complexity.
+            </p>
+            <h4 class="text-2xl font-medium text-zinc-800 mb-4">Track Employee Costs with Precision</h4>
+            <p class="text-zinc-600 leading-7 mb-6">
+                Our service allows you to monitor employee-related expenses, such as salaries, benefits, and overtime,
+                in real time. We create custom dashboards that break down costs by department, role, or location,
+                helping you identify trends and opportunities for optimization. For example, if a department’s labor
+                costs are rising disproportionately, our dashboards highlight this, enabling you to address
+                inefficiencies quickly.
+            </p>
+            <h4 class="text-2xl font-medium text-zinc-800 mb-4">Analyze Store Performance</h4>
+            <p class="text-zinc-600 leading-7 mb-6">
+                For businesses with multiple locations, we provide detailed insights into store performance, including
+                profit per store, revenue trends, and operational costs. Our dashboards consolidate data from each
+                location, allowing you to compare performance, identify top-performing stores, and address
+                underperforming ones. For instance, a retail chain can see which stores are driving the most profit and
+                allocate resources accordingly.
+            </p>
+            <h4 class="text-2xl font-medium text-zinc-800 mb-4">Custom Data Visualization</h4>
+            <p class="text-zinc-600 leading-7 mb-6">
+                We go beyond basic reports by creating tailored charts and visualizations for your operational data.
+                Whether it’s bar charts for store revenue comparisons, pie charts for cost breakdowns, or line graphs
+                for tracking expenses over time, our visualizations are designed to be clear and actionable. Using
+                platforms like Looker Studio, we ensure your data is presented in a way that’s easy to understand and
+                aligned with your business goals.
+            </p>
+             <img src="https://images.unsplash.com/photo-1666875753105-c63a6f3bdc86?q=80&w=1173&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Operations Analytics Example" class="w-full my-5 mt-5 object-cover rounded-lg shadow-lg">
+            <h4 class="text-2xl font-medium text-zinc-800 mb-4">Human-Led Insights</h4>
+            <p class="text-zinc-600 leading-7 mb-6">
+                Our team of analysts doesn’t just deliver data—they provide context and recommendations. We review your
+                operational metrics to identify cost-saving opportunities, highlight inefficiencies, and suggest
+                strategies for improvement. For example, if a store’s profit margin is declining, we might recommend
+                adjusting staffing levels or renegotiating supplier contracts based on the data.
+            </p>
+            <h4 class="text-2xl font-medium text-zinc-800 mb-4">Real-Time Monitoring</h4>
+            <p class="text-zinc-600 leading-7 mb-6">
+                Our Operations Analytics service offers real-time updates, so you’re always working with the latest
+                data. Whether you’re tracking daily store sales or monthly employee costs, our dashboards refresh
+                automatically via secure API connections, ensuring accuracy and timeliness. This allows you to respond
+                quickly to changes, such as a sudden spike in operational expenses.
+            </p>
+            <h4 class="text-2xl font-medium text-zinc-800 mb-4">Seamless Data Integration</h4>
+            <p class="text-zinc-600 leading-7 mb-6">
+                We integrate data from your existing systems, such as payroll software, accounting tools, or
+                point-of-sale systems, into a single dashboard. Whether you’re using QuickBooks, Xero, or custom
+                spreadsheets, we consolidate your data for a unified view, eliminating the need to juggle multiple
+                tools. For example, a business with multiple stores can see sales, labor costs, and inventory data side
+                by side.
+            </p>
+            <h4 class="text-2xl font-medium text-zinc-800 mb-4">Cost-Effective Solution</h4>
+            <p class="text-zinc-600 leading-7 mb-6">
+                Our Operations Analytics service is designed to be affordable, with monthly retainers typically ranging
+                from $1,000 to $3,000. This includes dashboard creation, ongoing maintenance, and expert analysis,
+                offering a cost-effective alternative to hiring a full-time analyst or investing in expensive software.
+                Our pricing ensures small and mid-sized businesses can access enterprise-grade insights without breaking
+                the bank.
+            </p>
+             <img src="https://images.unsplash.com/photo-1628348068343-c6a848d2b6dd?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                alt="Operations Analytics Example" class="w-full my-5 mt-5 object-cover rounded-lg shadow-lg">
+            <h4 class="text-2xl font-medium text-zinc-800 mb-4">Secure and Reliable</h4>
+            <p class="text-zinc-600 leading-7 mb-6">
+                Your data’s security is our priority. We use secure platforms like Looker Studio and industry-standard
+                API connections to ensure your operational data is protected and reliable. Automated data refreshes
+                minimize errors, and our dashboards are accessible only to authorized users, giving you peace of mind
+                while you focus on running your business.
+            </p>
+            <ul class="text-zinc-600 space-y-3 mb-6">
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-zinc-600"></i> Real-time tracking
+                    of employee costs and store performance</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-zinc-600"></i> Custom charts for
+                    clear, actionable insights</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-zinc-600"></i> Seamless integration
+                    with payroll, accounting, and POS systems</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-zinc-600"></i> Expert analysis to
+                    optimize costs and efficiency</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-zinc-600"></i> Affordable pricing
+                    for small and mid-sized businesses</li>
+                <li class="flex items-center gap-2"><i class="fa-solid fa-check text-zinc-600"></i> Secure, reliable
+                    data handling with automated updates</li>
+            </ul>
+
+            <div class="flex items-center justify-center">
+                <a href="/support.html"
+                    class="mt-8 inline-block md:w-auto bg-zinc-800 w-full text-center text-white font-medium py-3.5 px-6 rounded-lg hover:bg-zinc-700 transition-all duration-300">
+                    Get Started with Operations Analytics
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <div class="md:mt-20 mt-12" id="footer"></div>
+
+    <script src="https://unpkg.com/lenis@1.3.1/dist/lenis.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+    <script src="./docs/javascript/global.js"></script>
+    <script src="./docs/javascript/navbar.js"></script>
+    <script src="./docs/javascript/footer.js"></script>
+
+</body>
+
+</html>

@@ -18,6 +18,7 @@ footer.innerHTML = `
                 <li><a href="/index.html">Home</a></li>
                 <li><a href="/about.html">About us</a></li>
                 <li><a href="/resources.html">Resources</a></li>
+                <li><a href="/operations.html">Operation</a></li>
                 <li><a href="/pricing.html">Pricing</a></li>
             </ul>
         </div>
